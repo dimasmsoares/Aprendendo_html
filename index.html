@@ -1,0 +1,101 @@
+<!--O DOCTYPE é uma declaração que aparece no topo de uma página HTML e informa ao navegador 
+qual versão do HTML está sendo usada. Isso ajuda o navegador a renderizar o conteúdo da página 
+corretamente-->
+<!DOCTYPE html>
+<!--Após o DOCTYPE é necessário inserir um conjunto de tags que formam a estrutura básica:
+<html>
+    <head>
+    <\head>
+    <body>
+    </body>
+</html>
+IMPORTANTE: O código HTML é composto por uma estrutura hierárquica de tags (<tag> </tag>).-->
+<html lang="pt-br" dir = "ltr">
+<!--
+A tag <html> é a raiz de um documento HTML. 
+Tudo o que compõe o conteúdo de uma página HTML, incluindo outras tags como <head> e <body>, 
+está aninhado dentro da tag <html>. É o contêiner principal de toda a estrutura da página.
+
+A tag <html> pode conter alguns atributos importantes, sendo os principais:
+    lang: Define o idioma principal do conteúdo da página.
+    dir: Indica a direção do texto na página (ltr (left to right) - padrão)
+-->
+    <head>
+    <!-- 
+    A tag <head> é chamada de cabeçalho do documento ec ontém as tags que serão usadas para manter 
+    todo o documento funcionando e em ordem.
+    -->
+        <title>Titulo</title>
+        <!-- A tag <meta> é utilizada dentro do <head> para fornecer metadados sobre o documento.-->
+        <meta charset="utf-8"><!--Definição da Codificação de Caracteres-->
+        <meta name="author" content="Dimas Moreira Soares">
+        <meta name="description" content="Aprenda HTML.">
+        <meta name="keywords" content="HTML, meta, explicação, desenvolvimento web">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- A tag <script> é usada para incorporar ou referenciar scripts, geralmente escritos em 
+        JavaScript, que adicionam interatividade, lógica e funcionalidades dinâmicas à página web. -->
+        <script src="script_exemplo.js">
+            /*O script pode ficar aqui dentro tambem*/
+        </script>
+
+        <!-- A tag <link> é responsável pela inclusão das folhas de estilo externas (CSS) e de favicon -->
+        <link rel="stylesheet" href="">
+        <link rel="shortcut icon" href="favicon.ico">
+        
+        <!-- A tag <style> é responsável pelo vínculo de folhas de estilo ao documento,
+            quando elas são declaradas diretamente no documento. -->
+        <style>
+            h1 {
+                color: blue;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <h1>Aprendendo HTML (&lt;h1&gt;)</h1>
+        
+        <h2>1. Tags (&lt;h2&gt;)</h2>
+        <p>No contexto <strong>HTML</strong>, as <em>tags</em> são elementos usados para estruturas e organizar o conteúdo de uma pégina web. Cada <em>tag</em> é uma instrução que informa ao navegador como exibir determinado conteúdo ou como ele deve se comportar. As <em>tags</em> são a base da linguagem HTML e são representadas por nomes envolvidos por <u>colchetes angulares</u> (&lt; &gt;).</p>
+        
+        <h3><u>1.1. Estrutura de uma <em>tag</em></u></h3>
+        <p>A maioria das <em>tags</em> têm uma abertura e um fechamento, formando um elemento HTML</p>
+        <ul>
+            <li>&lt;p&gt;: <em>tag</em> de abertura de um paragrafo</li>
+            <li>&lt;/p&gt;: <em>tag</em> de fechamento de um paragrafo</li>
+        </ul>
+        <p><b>Exemplo de uma <em>tag</em> com abertura e fechamento:</b></p>
+        <p>&lt;p&gt; Este é um paragrafo&lt;/p&gt;</p>
+        <p><b>OBS: Algumas <em>tags</em> não possuem fechamento (autocontidas). Dessa forma elas não tem conteudos dentro delas.</b></p>
+        
+        
+        <h3><u>1.2. Tipos de <em>tags</em> HTML</u></h3>
+        <ol type="I">
+            <li><em>Tags</em> estruturais</li>
+            <li><em>Tags</em> de texto</li>
+            <li><em>Tags</em> de link e navegação</li>
+            <li><em>Tags</em> de mídia</li>
+            <li><em>Tags</em> de tabela</li>
+            <li><em>Tags</em> de formulário</li>
+        </ol>
+        
+        <h4>1.2.1. <em>Tags</em> estruturais</h4>
+        <p>As <em>tags</em> estruturais no HTML são usadas para definir a estrutura básica e a organização lógica de uma página web. Elas ajudam a segmentar o conteúdo em seções claras e semânticas, facilitando a compreensão por navegadores, motores de busca e leitores de tela.</p>
+        <p>Essas <em>tags</em> são fundamentais para o design e a acessibilidade de uma página, pois permitem organizar o conteúdo hierarquicamente e melhorar a navegação.</p>
+
+        <h4>1.2.2. <em>Tags</em> de texto</h4>
+        <h4>1.2.3. <em>Tags</em> de link e navegação</h4>
+        <h4>1.2.4. <em>Tags</em> de link e navegação</h4>
+        <h4>1.2.5. <em>Tags</em> de mídia</h4>
+        <h4>1.2.6. <em>Tags</em> de tabela</h4>
+        <h4>1.2.7. <em>Tags</em> de formulário</h4>
+
+        <h3><u>1.3. Atributos de <em>tags</em> HTML</u></h3>
+        <p><em>Tags</em> podem conter <strong style="color: crimson;">atributos</strong> que adicionam informações extras ou configuram o comportamento do elemento. Os atributos são definidos na tag de abertura.</p>
+        <p>&lt;a <strong style="color: crimson;">href</strong>="www.bitcoin.org" <strong style="color: crimson;">target</strong>="_blank"&gt;Visite nosso site&lt;/a&gt;</p>
+        
+        <img src="" alt="">
+
+    </body>
+</html>

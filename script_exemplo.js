@@ -1,0 +1,1 @@
+alert("Esta é uma janela gerada por um script")
