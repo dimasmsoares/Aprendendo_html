@@ -73,6 +73,7 @@ A tag <html> pode conter alguns atributos importantes, sendo os principais:
         <h3><u>1.2. Tipos de <em>tags</em> HTML</u></h3>
         <ol type="I">
             <li><em>Tags</em> estruturais</li>
+            <p>As tags estruturais no HTML são usadas para definir a estrutura básica e a organização lógica de uma página web. Elas ajudam a segmentar o conteúdo em seções claras e semânticas, facilitando a compreensão por navegadores, motores de busca e leitores de tela.</p>
             <li><em>Tags</em> de texto</li>
             <li><em>Tags</em> de link e navegação</li>
             <li><em>Tags</em> de mídia</li>
@@ -83,8 +84,51 @@ A tag <html> pode conter alguns atributos importantes, sendo os principais:
         <h4>1.2.1. <em>Tags</em> estruturais</h4>
         <p>As <em>tags</em> estruturais no HTML são usadas para definir a estrutura básica e a organização lógica de uma página web. Elas ajudam a segmentar o conteúdo em seções claras e semânticas, facilitando a compreensão por navegadores, motores de busca e leitores de tela.</p>
         <p>Essas <em>tags</em> são fundamentais para o design e a acessibilidade de uma página, pois permitem organizar o conteúdo hierarquicamente e melhorar a navegação.</p>
+        <ul>
+            <li><p>&lt;html&gt;: Define o documento HTML como o todo.</p></li>
+            <li><p>&lt;head&gt;: Contém metadados e informações gerais sobre a página (não visíveis ao usuário).</p></li>
+            <li><p>&lt;body&gt;: Contém o conteúdo visível da página.</p></li>
+            <li><p>&lt;header&gt;: Representa a seção de cabeçalho de uma página ou de uma seção.</p></li>
+            <li><p>&lt;nav&gt;: Indica uma área de navegação, como menus e links.</p></li>
+            <li><p>&lt;main&gt;: Representa o conteúdo principal do documento.</p></li>
+            <li><p>&lt;section&gt;: Define seções de conteúdo relacionadas.</p></li>
+            <li><p>&lt;article&gt;: Indica um conteúdo independente e completo, como postagens de blog ou artigos.</p></li>
+            <li><p>&lt;aside&gt;: Representa informações relacionadas ao conteúdo principal, como barras laterais ou caixas de informações extras.</p></li>
+            <li><p>&lt;footer&gt;: Representa o rodapé da página ou de uma seção.</p></li>
+        </ul>
 
         <h4>1.2.2. <em>Tags</em> de texto</h4>
+        <p>As <em>tags</em> de texto no HTML são usadas para formatar, estruturar e exibir conteúdos textuais em uma página web. Elas ajudam a organizar o texto em parágrafos, títulos, listas e permitem aplicar estilos específicos, como negrito, itálico ou sublinhado.</p>
+        <p>Essas <em>tags</em> também possuem uma função semântica, indicando o propósito ou a importância de um determinado texto para o navegador, motores de busca e leitores de tela.</p>
+        <ul>
+            <li><p>&lt;h1&gt; ... &lt;h6&gt;: Representam títulos e subtítulos de diferentes níveis de importância.</p></li>
+            <li><p>&lt;p&gt;: Define um parágrafo de texto.</p></li>
+            <li><p>&lt;strong&gt;: Dá ênfase semântica ao texto, geralmente exibindo-o em <strong>negrito</strong>.</p></li>
+            <li><p>&lt;b&gt;: Apenas aplica o estilo <b>negrito</b>, sem ênfase semântica.</p></li>
+            <li><p>&lt;em&gt;: Dá ênfase semântica ao texto, geralmente exibindo-o em itálico.</p></li>
+            <li><p>&lt;i&gt;: Apenas aplica o estilo itálico, sem ênfase semântica.</p></li>
+            <li><p>&lt;hr&gt;: Insere uma linha horizontal para dividir conteúdos.</p></li>
+            <li><p>&lt;pre&gt;: Exibe o texto exatamente como ele foi escrito, incluindo espaços e quebras de linha.</p></li>
+            <li><p>&lt;br&gt;: Insere uma quebra de linha no texto.</p></li>
+            <li><p>&lt;blockquote&gt;: Usada para citar um texto em bloco.</p></li>
+            <blockquote>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae sequi a maxime saepe recusandae? Eligendi harum, nam aliquid odit, maxime pariatur, dolorem quo aut eius laborum esse amet atque sequi.</blockquote>
+            <li><p>&lt;q&gt;: Usada para citações curtas, que aparecem entre <q>aspas</q>.</p></li>
+            <li><p>&lt;ul&gt;: Lista não ordenada (com marcadores)..</p></li>
+            <li><p>&lt;ol&gt;: Lista ordenada (com números ou letras).</p></li>
+            <li><p>&lt;li&gt;: Define os itens da lista.</p></li>
+            <li><p>&lt;small&gt;: Exibe texto em tamanho <small>reduzido</small>.</p></li>
+            <li><p>&lt;u&gt;: <u>Sublinha o texto</u>.</p></li>
+            <li><p>&lt;s&gt;: Exibe texto <s>riscado</s> sem indicar remoção semântica.</p></li>
+            <li><p>&lt;del&gt;: Indica texto excluído. <del>Essa parte foi excluida.</del></p></li>
+            <li><p>&lt;sup&gt;: Texto elevado (superior) --&gt; x<sup>2</sup></p></li>
+            <li><p>&lt;sub&gt;: Texto rebaixado (infeir) --&gt; X<sub>i</sub></p></li>
+            <li><p>&lt;code&gt;: Exibe trechos de código no texto.</p></li>
+            <p>Use a tag <code>&lt;html&gt;</code> no início do documento.</p>
+            <li><p>&lt;ins&gt;: Indica texto inserido, geralmente exibindo-o <ins>sublinhado</ins>.</p></li>
+            
+
+        </ul>
+        
         <h4>1.2.3. <em>Tags</em> de link e navegação</h4>
         <h4>1.2.4. <em>Tags</em> de link e navegação</h4>
         <h4>1.2.5. <em>Tags</em> de mídia</h4>
@@ -95,7 +139,7 @@ A tag <html> pode conter alguns atributos importantes, sendo os principais:
         <p><em>Tags</em> podem conter <strong style="color: crimson;">atributos</strong> que adicionam informações extras ou configuram o comportamento do elemento. Os atributos são definidos na tag de abertura.</p>
         <p>&lt;a <strong style="color: crimson;">href</strong>="www.bitcoin.org" <strong style="color: crimson;">target</strong>="_blank"&gt;Visite nosso site&lt;/a&gt;</p>
         
-        <img src="" alt="">
+        <img src="python_medium.jpeg" alt="python">
 
     </body>
 </html>
